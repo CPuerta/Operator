@@ -1,0 +1,804 @@
+fileFormatVersion: 2
+guid: 036b2946b3003d941afbe2f94525358d
+timeCreated: 1517163243
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: ChamferBox001
+    100002: ChamferCyl001
+    100004: ChamferCyl002
+    100006: ChamferCyl003
+    100008: ChamferCyl004
+    100010: ChamferCyl005
+    100012: ChamferCyl006
+    100014: ChamferCyl007
+    100016: ChamferCyl008
+    100018: ChamferCyl009
+    100020: ChamferCyl010
+    100022: ChamferCyl011
+    100024: ChamferCyl012
+    100026: ChamferCyl013
+    100028: Circle002
+    100030: Circle003
+    100032: Circle006
+    100034: Circle007
+    100036: Circle008
+    100038: Circle009
+    100040: Cylinder001
+    100042: Cylinder002
+    100044: Cylinder003
+    100046: Helix001
+    100048: Helix001_MeshPart0
+    100050: Helix001_MeshPart1
+    100052: Helix001_MeshPart2
+    100054: Helix001_MeshPart3
+    100056: Line001
+    100058: Line002
+    100060: Line003
+    100062: Line004
+    100064: Line005
+    100066: Line006
+    100068: Line007
+    100070: Line008
+    100072: Line009
+    100074: Line010
+    100076: Line011
+    100078: Line013
+    100080: Line014
+    100082: Line015
+    100084: Line016
+    100086: Line017
+    100088: Line018
+    100090: Line022
+    100092: //RootNode
+    100094: Sphere001
+    100096: Sphere002
+    100098: Sphere003
+    100100: Sphere004
+    100102: Sphere005
+    100104: Sphere006
+    100106: Sphere007
+    100108: Sphere008
+    100110: Text001
+    100112: Text002
+    100114: Text003
+    100116: Text004
+    100118: Text005
+    100120: Text006
+    100122: Text007
+    100124: Text008
+    100126: Text009
+    100128: Text010
+    100130: Text011
+    100132: Text012
+    100134: Text013
+    100136: Text014
+    100138: Text015
+    100140: Text016
+    100142: Text017
+    100144: Text018
+    100146: Text019
+    100148: Text020
+    400000: ChamferBox001
+    400002: ChamferCyl001
+    400004: ChamferCyl002
+    400006: ChamferCyl003
+    400008: ChamferCyl004
+    400010: ChamferCyl005
+    400012: ChamferCyl006
+    400014: ChamferCyl007
+    400016: ChamferCyl008
+    400018: ChamferCyl009
+    400020: ChamferCyl010
+    400022: ChamferCyl011
+    400024: ChamferCyl012
+    400026: ChamferCyl013
+    400028: Circle002
+    400030: Circle003
+    400032: Circle006
+    400034: Circle007
+    400036: Circle008
+    400038: Circle009
+    400040: Cylinder001
+    400042: Cylinder002
+    400044: Cylinder003
+    400046: Helix001
+    400048: Helix001_MeshPart0
+    400050: Helix001_MeshPart1
+    400052: Helix001_MeshPart2
+    400054: Helix001_MeshPart3
+    400056: Line001
+    400058: Line002
+    400060: Line003
+    400062: Line004
+    400064: Line005
+    400066: Line006
+    400068: Line007
+    400070: Line008
+    400072: Line009
+    400074: Line010
+    400076: Line011
+    400078: Line013
+    400080: Line014
+    400082: Line015
+    400084: Line016
+    400086: Line017
+    400088: Line018
+    400090: Line022
+    400092: //RootNode
+    400094: Sphere001
+    400096: Sphere002
+    400098: Sphere003
+    400100: Sphere004
+    400102: Sphere005
+    400104: Sphere006
+    400106: Sphere007
+    400108: Sphere008
+    400110: Text001
+    400112: Text002
+    400114: Text003
+    400116: Text004
+    400118: Text005
+    400120: Text006
+    400122: Text007
+    400124: Text008
+    400126: Text009
+    400128: Text010
+    400130: Text011
+    400132: Text012
+    400134: Text013
+    400136: Text014
+    400138: Text015
+    400140: Text016
+    400142: Text017
+    400144: Text018
+    400146: Text019
+    400148: Text020
+    2300000: ChamferBox001
+    2300002: ChamferCyl001
+    2300004: ChamferCyl002
+    2300006: ChamferCyl003
+    2300008: ChamferCyl004
+    2300010: ChamferCyl005
+    2300012: ChamferCyl006
+    2300014: ChamferCyl007
+    2300016: ChamferCyl008
+    2300018: ChamferCyl009
+    2300020: ChamferCyl010
+    2300022: ChamferCyl011
+    2300024: ChamferCyl012
+    2300026: ChamferCyl013
+    2300028: Circle002
+    2300030: Circle003
+    2300032: Circle006
+    2300034: Circle007
+    2300036: Circle008
+    2300038: Circle009
+    2300040: Cylinder001
+    2300042: Cylinder002
+    2300044: Cylinder003
+    2300046: Helix001_MeshPart0
+    2300048: Helix001_MeshPart1
+    2300050: Helix001_MeshPart2
+    2300052: Helix001_MeshPart3
+    2300054: Line001
+    2300056: Line002
+    2300058: Line003
+    2300060: Line004
+    2300062: Line005
+    2300064: Line006
+    2300066: Line007
+    2300068: Line008
+    2300070: Line009
+    2300072: Line010
+    2300074: Line011
+    2300076: Line013
+    2300078: Line014
+    2300080: Line015
+    2300082: Line016
+    2300084: Line017
+    2300086: Line018
+    2300088: Line022
+    2300090: Sphere001
+    2300092: Sphere002
+    2300094: Sphere003
+    2300096: Sphere004
+    2300098: Sphere005
+    2300100: Sphere006
+    2300102: Sphere007
+    2300104: Sphere008
+    2300106: Text001
+    2300108: Text002
+    2300110: Text003
+    2300112: Text004
+    2300114: Text005
+    2300116: Text006
+    2300118: Text007
+    2300120: Text008
+    2300122: Text009
+    2300124: Text010
+    2300126: Text011
+    2300128: Text012
+    2300130: Text013
+    2300132: Text014
+    2300134: Text015
+    2300136: Text016
+    2300138: Text017
+    2300140: Text018
+    2300142: Text019
+    2300144: Text020
+    3300000: ChamferBox001
+    3300002: ChamferCyl001
+    3300004: ChamferCyl002
+    3300006: ChamferCyl003
+    3300008: ChamferCyl004
+    3300010: ChamferCyl005
+    3300012: ChamferCyl006
+    3300014: ChamferCyl007
+    3300016: ChamferCyl008
+    3300018: ChamferCyl009
+    3300020: ChamferCyl010
+    3300022: ChamferCyl011
+    3300024: ChamferCyl012
+    3300026: ChamferCyl013
+    3300028: Circle002
+    3300030: Circle003
+    3300032: Circle006
+    3300034: Circle007
+    3300036: Circle008
+    3300038: Circle009
+    3300040: Cylinder001
+    3300042: Cylinder002
+    3300044: Cylinder003
+    3300046: Helix001_MeshPart0
+    3300048: Helix001_MeshPart1
+    3300050: Helix001_MeshPart2
+    3300052: Helix001_MeshPart3
+    3300054: Line001
+    3300056: Line002
+    3300058: Line003
+    3300060: Line004
+    3300062: Line005
+    3300064: Line006
+    3300066: Line007
+    3300068: Line008
+    3300070: Line009
+    3300072: Line010
+    3300074: Line011
+    3300076: Line013
+    3300078: Line014
+    3300080: Line015
+    3300082: Line016
+    3300084: Line017
+    3300086: Line018
+    3300088: Line022
+    3300090: Sphere001
+    3300092: Sphere002
+    3300094: Sphere003
+    3300096: Sphere004
+    3300098: Sphere005
+    3300100: Sphere006
+    3300102: Sphere007
+    3300104: Sphere008
+    3300106: Text001
+    3300108: Text002
+    3300110: Text003
+    3300112: Text004
+    3300114: Text005
+    3300116: Text006
+    3300118: Text007
+    3300120: Text008
+    3300122: Text009
+    3300124: Text010
+    3300126: Text011
+    3300128: Text012
+    3300130: Text013
+    3300132: Text014
+    3300134: Text015
+    3300136: Text016
+    3300138: Text017
+    3300140: Text018
+    3300142: Text019
+    3300144: Text020
+    4300000: ChamferBox001
+    4300002: ChamferCyl001
+    4300004: ChamferCyl002
+    4300006: ChamferCyl003
+    4300008: ChamferCyl004
+    4300010: ChamferCyl005
+    4300012: ChamferCyl006
+    4300014: ChamferCyl007
+    4300016: ChamferCyl008
+    4300018: ChamferCyl009
+    4300020: ChamferCyl010
+    4300022: ChamferCyl011
+    4300024: ChamferCyl012
+    4300026: ChamferCyl013
+    4300028: Circle002
+    4300030: Circle003
+    4300032: Circle006
+    4300034: Circle007
+    4300036: Circle008
+    4300038: Circle009
+    4300040: Cylinder001
+    4300042: Cylinder002
+    4300044: Cylinder003
+    4300046: Helix001_MeshPart0
+    4300048: Helix001_MeshPart1
+    4300050: Helix001_MeshPart2
+    4300052: Helix001_MeshPart3
+    4300054: Line001
+    4300056: Line002
+    4300058: Line003
+    4300060: Line004
+    4300062: Line005
+    4300064: Line006
+    4300066: Line007
+    4300068: Line008
+    4300070: Line009
+    4300072: Line010
+    4300074: Line011
+    4300076: Line013
+    4300078: Line014
+    4300080: Line015
+    4300082: Line016
+    4300084: Line017
+    4300086: Line018
+    4300088: Line022
+    4300090: Sphere001
+    4300092: Sphere002
+    4300094: Sphere003
+    4300096: Sphere004
+    4300098: Sphere005
+    4300100: Sphere006
+    4300102: Sphere007
+    4300104: Sphere008
+    4300106: Text001
+    4300108: Text002
+    4300110: Text003
+    4300112: Text004
+    4300114: Text005
+    4300116: Text006
+    4300118: Text007
+    4300120: Text008
+    4300122: Text009
+    4300124: Text010
+    4300126: Text011
+    4300128: Text012
+    4300130: Text013
+    4300132: Text014
+    4300134: Text015
+    4300136: Text016
+    4300138: Text017
+    4300140: Text018
+    4300142: Text019
+    4300144: Text020
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChamferBox001Mat
+    second: {fileID: 2100000, guid: a8762e1cf0bfb3e4b82698de5d533149, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChamferCyl001Mat
+    second: {fileID: 2100000, guid: 3e51a57b5aaf382429061074dc951a77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChamferCyl002Mat
+    second: {fileID: 2100000, guid: 10ea66c019efaef4ab0f0cc56885b785, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChamferCyl003Mat
+    second: {fileID: 2100000, guid: b31fcf546663a484b991aac60a408a50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChamferCyl004Mat
+    second: {fileID: 2100000, guid: 2ade92b29cd70d04a8cf3b69596fd631, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChamferCyl005Mat
+    second: {fileID: 2100000, guid: 8c8ba17d03cbe4747a5b1e73de514cf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChamferCyl006Mat
+    second: {fileID: 2100000, guid: e081030779390364f843b342fe38dcb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChamferCyl007Mat
+    second: {fileID: 2100000, guid: 7149fbd9ee2efa04185f51957d4c7311, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChamferCyl008Mat
+    second: {fileID: 2100000, guid: e543ce1c8e1c2b04eacb2665fd696cab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChamferCyl009Mat
+    second: {fileID: 2100000, guid: 2d0aad4b45367ec4496ef5324bbd5e28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChamferCyl010Mat
+    second: {fileID: 2100000, guid: 4d7b8bd16559f9b4bb10a2a63de5f4b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChamferCyl011Mat
+    second: {fileID: 2100000, guid: c60216bac0118d841ba90e64a8fe7907, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChamferCyl012Mat
+    second: {fileID: 2100000, guid: 30d837663d871534692b3ccd5f25dc24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChamferCyl013Mat
+    second: {fileID: 2100000, guid: 35b7129326266034ba62b47654fda380, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Circle002Mat
+    second: {fileID: 2100000, guid: 63fbb78c39f46f24a99927ba214b0f33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Circle003Mat
+    second: {fileID: 2100000, guid: ed87b541b147feb40abb1492db4bd942, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Circle006Mat
+    second: {fileID: 2100000, guid: 0c1b3b96e9219ca4f8ca62ab9721e0d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Circle007Mat
+    second: {fileID: 2100000, guid: da409bc4f788c284ead04a0688c4df33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Circle008Mat
+    second: {fileID: 2100000, guid: 84e205213b546e848b50d1784619c59a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Circle009Mat
+    second: {fileID: 2100000, guid: 2568ddb5067c4fe46bf4c90ffa2be370, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder001Mat
+    second: {fileID: 2100000, guid: 0e0de014a4226114481397c7aa241b79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder002Mat
+    second: {fileID: 2100000, guid: fd2e7bce4c322694cb8348977131d2b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder003Mat
+    second: {fileID: 2100000, guid: 386e109104993eb47878d8b4e5c85126, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Helix001Mat
+    second: {fileID: 2100000, guid: 33e01cb9ad47fda4fa5371240e005810, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line001Mat
+    second: {fileID: 2100000, guid: e258a39f8a0ce5245b975c53605ed4ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line002Mat
+    second: {fileID: 2100000, guid: c8c87aa74bcd4ad48980cff0c166fa1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line003Mat
+    second: {fileID: 2100000, guid: d05abf3c5d74ade48b06caa1bd0fcf1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line004Mat
+    second: {fileID: 2100000, guid: de72649c9051d5e4a988e6a36b210a9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line005Mat
+    second: {fileID: 2100000, guid: 6d41d6dc30504ad4d9cc1e5de74df6da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line006Mat
+    second: {fileID: 2100000, guid: 1bccae561bc75f94c80c2860c0b508f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line007Mat
+    second: {fileID: 2100000, guid: c9cfb8bcbbe0c1840ad371a6079a1bbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line008Mat
+    second: {fileID: 2100000, guid: f87f3089ddade984db7ae94b2ad97ae5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line009Mat
+    second: {fileID: 2100000, guid: faef2c5cdd446634ea8b205ea1d69919, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line010Mat
+    second: {fileID: 2100000, guid: eca34eff4f0dd754d87edec52c8ded0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line011Mat
+    second: {fileID: 2100000, guid: 1223d349f6bc28f4da6a3056b2badf73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line013Mat
+    second: {fileID: 2100000, guid: 256c15e1e488bc249aad520e4d349329, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line014Mat
+    second: {fileID: 2100000, guid: a51ed7a5239718e4c9a7ee4be151ecc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line015Mat
+    second: {fileID: 2100000, guid: 583e0e058ced48a48a66ffaa1384706c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line016Mat
+    second: {fileID: 2100000, guid: 4cbc8498560768447b3a759f66b4dbbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line017Mat
+    second: {fileID: 2100000, guid: caea0c05c0960014fa3efae192b6d540, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line018Mat
+    second: {fileID: 2100000, guid: 1027c4b6b2c2e6d429b57015ab324db9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line022Mat
+    second: {fileID: 2100000, guid: c69a0886038a67348805de3839e5bcff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sphere001Mat
+    second: {fileID: 2100000, guid: a63d032dde0e5884eb80d5cc3780eff9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sphere002Mat
+    second: {fileID: 2100000, guid: affd01a0c0639904fbadb498fde63748, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sphere003Mat
+    second: {fileID: 2100000, guid: fb1ade04a84dc944d84671b382e80379, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sphere004Mat
+    second: {fileID: 2100000, guid: e42a7f078919bdf40a974ab861a941e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sphere005Mat
+    second: {fileID: 2100000, guid: c740cc0f2fd5d4f45b7b40f5f79372f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sphere006Mat
+    second: {fileID: 2100000, guid: b27d97017d4931146b8d05cd2463feb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sphere007Mat
+    second: {fileID: 2100000, guid: cfbcb10c1e70229499981604025a8c02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sphere008Mat
+    second: {fileID: 2100000, guid: ecb3377b83b552e4392b0db8edb9a998, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text001Mat
+    second: {fileID: 2100000, guid: a6786bfbe28c0044e9a8ba801dafe4c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text002Mat
+    second: {fileID: 2100000, guid: d39fffb8f8d7a3848a60763461d440e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text003Mat
+    second: {fileID: 2100000, guid: b04914bf99abd4d4c96f7ab126021f5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text004Mat
+    second: {fileID: 2100000, guid: 72b51e4e762d5d34d853441495a13d76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text005Mat
+    second: {fileID: 2100000, guid: 82e8748c8c089ee4e86967440dcc2201, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text006Mat
+    second: {fileID: 2100000, guid: 6e21cc856a815e04daed402865710fc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text007Mat
+    second: {fileID: 2100000, guid: ca3320370383b8946aee99eb972feaf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text008Mat
+    second: {fileID: 2100000, guid: 2a92fbcb8a1d33347bbbee0ecc9d6105, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text009Mat
+    second: {fileID: 2100000, guid: 91fba76a802cbb348a1e6391c43802a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text010Mat
+    second: {fileID: 2100000, guid: dc9ba8c3efb6aa041a583fd35ce032a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text011Mat
+    second: {fileID: 2100000, guid: 3fd2a11c520dd3d47be6de6aa44d174a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text012Mat
+    second: {fileID: 2100000, guid: 41ae756ab475f904bae52880c1d9799b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text013Mat
+    second: {fileID: 2100000, guid: 04943a91f8037734690fefe8d2fa37e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text014Mat
+    second: {fileID: 2100000, guid: 911d515996488af48b2290de696a847f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text015Mat
+    second: {fileID: 2100000, guid: d468fe1021092a04c95efc2458f04436, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text016Mat
+    second: {fileID: 2100000, guid: 7fad2eb29cbefde40b6a13b0dea002fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text017Mat
+    second: {fileID: 2100000, guid: f22a8535d204ec1469e0991ff0d43fb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text018Mat
+    second: {fileID: 2100000, guid: ad70acb39512bff419da64bf636bebe0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text019Mat
+    second: {fileID: 2100000, guid: f8b0a307de2f38f41866dcbca1ee4bf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text020Mat
+    second: {fileID: 2100000, guid: daea173ab8a6dd542978022b7c90d7b1, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

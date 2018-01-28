@@ -8,8 +8,8 @@ public class WandController : MonoBehaviour {
 
     private SteamVR_Controller.Device controller { get { return SteamVR_Controller.Input((int)trackedObj.index); } }
     private SteamVR_TrackedObject trackedObj;
-
-    private GameObject pickup;
+     
+    public GameObject pickup;
 	// Use this for initialization
 	void Start () {
         trackedObj = GetComponent<SteamVR_TrackedObject>();
@@ -23,12 +23,18 @@ public class WandController : MonoBehaviour {
             return;
         }
 
-        if (controller.GetPressDown(triggerButton))
+        if (controller.GetPress(triggerButton))
         {
             if(pickup != null)
             {
                 pickup.transform.parent = this.transform;
-                pickup.GetComponent<Rigidbody>().isKinematic = true;
+                //pickup.GetComponent<Rigidbody>().isKinematic = true;
+                if (pickup.GetComponent<Plug>())
+                {
+                    pickup.GetComponent<Plug>().HELD = true;
+
+                }
+
             }
         }
     
@@ -36,27 +42,44 @@ public class WandController : MonoBehaviour {
         {
             if(pickup != null)
             {
+                if (pickup.GetComponent<Plug>())
+                {
+                    pickup.GetComponent<Plug>().HELD = false;
+
+                }
                 pickup.transform.parent = null;
-                pickup.GetComponent<Rigidbody>().isKinematic = false;
+                
+                //pickup.GetComponent<Rigidbody>().isKinematic = false;
             }
+            pickup = null;
         }
 
 
     }
 
-    private void OnTriggerEnter(Collider collider)
+    private void OnTriggerStay(Collider collider)
     {
-        if (collider.gameObject.tag.Equals("PickableObject"))
+        if (pickup == null)
         {
-            pickup = collider.gameObject;
+            if (collider.gameObject.tag.Equals("PickableObject"))
+            {
+                pickup = collider.gameObject;
+
+            }
         }
+      
     }
 
     public void OnTriggerExit(Collider collider)
     {
-        if (collider.gameObject.tag.Equals("PickableObject"))
+        if (pickup != null)
         {
-            pickup = null;
+            if (collider.gameObject.tag.Equals("PickableObject"))
+            {
+                pickup = null;
+
+            }
         }
+
     }
 }

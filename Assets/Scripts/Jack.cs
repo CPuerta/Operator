@@ -11,12 +11,20 @@ public class JackPosition
 
 public class Jack : MonoBehaviour {
     public JackPosition _jackPosition;
-    private Board _boardScript;
+    //private Board _boardScript;
+    public GameObject greenlight;
+    bool error;
+    public Transform lockLocation;
 
     void Start()
     {
-        _boardScript = GameObject.Find("Board").GetComponent<Board>();
-        Debug.Log(_boardScript);
+        //_jackPosition = new JackPosition();
+        //_boardScript = GameObject.Find("Board").GetComponent<Board>();
+       // Debug.Log(_boardScript);
+    }
+    private void Update()
+    {
+
     }
 
     public void SetJackPosition(JackPosition jackPosition)
@@ -24,21 +32,31 @@ public class Jack : MonoBehaviour {
         _jackPosition = jackPosition;
     }
 
-    private void OnTriggerEnter(Collider other)
+
+    public void lightUp()
     {
-        if(other.gameObject.tag.Equals("Plug"))
-        {
-            _boardScript.AddJackPosition(_jackPosition);
-            Debug.Log("Plugging in!");
-        }
+        greenlight.SetActive(true);
     }
 
-    private void OnTriggerExit(Collider other)
+    public void lightOff()
     {
-        if (other.gameObject.tag.Equals("Plug"))
-        {
-            _boardScript.RemoveJackPosition(_jackPosition);
-            Debug.Log("Pulling Out!");
-        }
+        greenlight.SetActive(false);
     }
+//    private void OnTriggerEnter(Collider other)
+//    {
+//        if(other.gameObject.tag.Equals("Plug"))
+//        {
+//            _boardScript.AddJackPosition(_jackPosition);
+//            Debug.Log("Plugging in!");
+//        }
+//    }
+
+//    private void OnTriggerExit(Collider other)
+//    {
+//        if (other.gameObject.tag.Equals("Plug"))
+//        {
+//            _boardScript.RemoveJackPosition(_jackPosition);
+//            Debug.Log("Pulling Out!");
+//        }
+//    }
 }
