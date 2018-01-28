@@ -104,4 +104,12 @@ public class GameManager : MonoBehaviour
         }
 
     }
+    public void Good_Outcome()
+    {
+
+    }
+    public void Bad_Outcome()
+    {
+
+    }
 }
