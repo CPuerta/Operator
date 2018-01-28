@@ -5,14 +5,20 @@ using UnityEngine;
 public class Plug : MonoBehaviour {
 
 	// Use this for initialization
-	void Start ()
-    {
+	void Start () {
 		
 	}
 	
 	// Update is called once per frame
-	void Update ()
-    {
+	void Update () {
 		
 	}
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag.Equals("Incorrect"))
+        {
+            transform.parent = other.gameObject.transform;
+        }
+    }
 }

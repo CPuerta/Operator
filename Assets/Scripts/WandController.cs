@@ -23,7 +23,7 @@ public class WandController : MonoBehaviour {
             return;
         }
 
-        if (controller.GetPressDown(gripButton))
+        if (controller.GetPressDown(triggerButton))
         {
             if(pickup != null)
             {
@@ -32,7 +32,7 @@ public class WandController : MonoBehaviour {
             }
         }
     
-        if(controller.GetPressUp(gripButton))
+        if(controller.GetPressUp(triggerButton))
         {
             if(pickup != null)
             {
@@ -49,7 +49,6 @@ public class WandController : MonoBehaviour {
         if (collider.gameObject.tag.Equals("PickableObject"))
         {
             pickup = collider.gameObject;
-            Debug.Log("Picking up");
         }
     }
 
