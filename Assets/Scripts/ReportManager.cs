@@ -27,7 +27,7 @@ public class ReportManager : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-		reportData = Resources.Load<TextAsset>("breifTest");
+		//reportData = Resources.Load<TextAsset>("breifTest");
 		updateReportTextFromJson(reportData);
 	}
 
@@ -58,8 +58,11 @@ public class ReportManager : MonoBehaviour
 	void Update ()
 	{
 		Animator anm = GetComponentInParent<Animator>();
+<<<<<<< HEAD
 		Debug.Log (anm.layerCount);
 		//Debug.Log (anm.normalizedTime);
+=======
+>>>>>>> 9cb466df8160000babd7dc87bb0b5b9b113e50da
 
 		if (!anm.IsInTransition(0) && textVisible == false)
 		{
