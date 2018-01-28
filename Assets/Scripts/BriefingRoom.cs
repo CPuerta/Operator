@@ -25,6 +25,12 @@ public class BriefingRoom : MonoBehaviour {
         AS.Play();
     }
     public void loadNext() {
+
+        StartCoroutine(wait2load());
+    }
+    IEnumerator wait2load()
+    {
+        yield return new WaitForSeconds(timeb4Spawn/2);
         SceneManager.LoadScene(level);
     }
     //load to next scene funtion

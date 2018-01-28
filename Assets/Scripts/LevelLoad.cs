@@ -3,36 +3,43 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LevelLoad : MonoBehaviour {
-    public bool Pressed;
+    public bool Pressed=false;
     public BriefingRoom BR;
-    bool pressable = true;
+    public bool pressable = true;
     private void OnTriggerEnter(Collider other)
     {
-        if (Pressed)
+        if (!Pressed)
         {
             if (pressable)
             {
                 transform.position = transform.position + new Vector3(0, -.02f, 0);
-                StartCoroutine(Wait());
+                //d.transform.GetChild(d.currentCall).gameObject.GetComponent<Call>().eavesdropping = true;
                 BR.loadNext();
+                Pressed = true;
+                StartCoroutine(Wait());
                 // print out what's being heard
                 pressable = false;
             }
             else
             {
-                transform.position = transform.position + new Vector3(0, .02f, 0);
-                StartCoroutine(Wait());
+
             }
             pressable = false;
 
         }
         else
         {
-
+            if (pressable)
+            {
+                transform.position = transform.position + new Vector3(0, .02f, 0);
+                //d.transform.GetChild(d.currentCall).gameObject.GetComponent<Call>().eavesdropping = false;
+                Pressed = false;
+                StartCoroutine(Wait());
+            }
         }
     }
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		
 	}
 	

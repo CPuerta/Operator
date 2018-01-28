@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 70735e6129280db45923678ade8e1fd0
+timeCreated: 1517169045
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - audioClip1: {fileID: 8300000, guid: fbdc45158ea3e164699f7fd572f127cb, type: 3}
+  - audioClip2: {fileID: 8300000, guid: dc583cf9f44eb3447bd3a0c43995139a, type: 3}
+  - audioClip3: {fileID: 8300000, guid: e9ec3feac05202a49ae8cea6ef71f415, type: 3}
+  - audioClip4: {fileID: 8300000, guid: 7eab8eac572f9ae43b9ee0fdea819dea, type: 3}
+  - audioClip5: {fileID: 8300000, guid: 5ba86fd33fe7fc14ca83633c8c9536cf, type: 3}
+  - audioClip6: {fileID: 8300000, guid: 26cddaad0f6a6f84195ed9cdb1ead58f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
