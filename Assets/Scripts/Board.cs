@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Board : MonoBehaviour {
+public class Board : MonoBehaviour
+{
     public Jack[,] jacks;
     private List<JackPosition> _pluggedJacks = new List<JackPosition>();
-    
+
     //public static Board b = new Board(8,4);
     //private void Awake()
     //{
@@ -28,7 +29,7 @@ public class Board : MonoBehaviour {
 
     public void AddJack(Jack j)
     {
-        jacks[j._jackPosition.X,j._jackPosition.Y] = j;
+        jacks[j._jackPosition.X, j._jackPosition.Y] = j;
     }
     public Jack GetJack(int x, int y)
     {

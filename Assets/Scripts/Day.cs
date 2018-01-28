@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Day : MonoBehaviour {
+public class Day : MonoBehaviour
+{
     public int numberOfCalls;
     public int currentCall = 0;
     Call current;
@@ -15,17 +16,20 @@ public class Day : MonoBehaviour {
     DayState currentState = DayState.NOTHING;
 
     // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		if(active)
+    void Start()
+    {
+        numberOfCalls = transform.childCount;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (active)
         {
-            if(currentState == DayState.NOTHING)
+            if (currentState == DayState.NOTHING)
             {
                 if (currentCall == numberOfCalls)
+                    //day is finished
                     active = false;
                 else
                 {
@@ -34,11 +38,12 @@ public class Day : MonoBehaviour {
                     currentState = DayState.CALLING;
                 }
             }
-            if(currentState == DayState.CALLING && !current.active)
+            if (currentState == DayState.CALLING && !current.active)
             {
                 currentState = DayState.NOTHING;
                 currentCall++;
             }
         }
-	}
+        
+    }
 }

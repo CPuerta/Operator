@@ -59,7 +59,7 @@ public class ReportManager : MonoBehaviour
 	{
 		Animator anm = GetComponentInParent<Animator>();
 		Debug.Log (anm.layerCount);
-		Debug.Log (anm.normlizedTime);
+		//Debug.Log (anm.normalizedTime);
 
 		if (!anm.IsInTransition(0) && textVisible == false)
 		{

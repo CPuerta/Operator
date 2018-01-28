@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class QuickFormat : MonoBehaviour {
+public class QuickFormat : MonoBehaviour
+{
     public int width;
     public int height;
-    public float spacing= 1.5f;
-     Board b;
-	// Use this for initialization
-	void Awake () {
+    public float spacing = 1.5f;
+    Board b;
+    // Use this for initialization
+    void Awake()
+    {
         b = this.GetComponent<Board>();
         b.jacks = new Jack[8, 4];
 
@@ -19,9 +21,9 @@ public class QuickFormat : MonoBehaviour {
 
             for (int j = 0; j < 8; j++)
             {
-                GameObject JAckhole= transform.GetChild(i).transform.GetChild(j).gameObject;
-                JAckhole.transform.localPosition = new Vector3(0,0 , j * spacing);// can probably instiate instead 
-                JAckhole.transform.name ="y"+i+ "x" + j;
+                GameObject JAckhole = transform.GetChild(i).transform.GetChild(j).gameObject;
+                JAckhole.transform.localPosition = new Vector3(0, 0, j * spacing);// can probably instiate instead 
+                JAckhole.transform.name = "y" + i + "x" + j;
                 JAckhole.gameObject.tag = "Incorrect";
                 //transform.GetChild(i).transform.GetChild(j).gameObject.GetComponent<BoxCollider>().isTrigger = true;
                 var jack = transform.GetChild(i).transform.GetChild(j).gameObject.AddComponent<Jack>();
@@ -42,7 +44,8 @@ public class QuickFormat : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update () {
-		
-	}
+    void Update()
+    {
+
+    }
 }

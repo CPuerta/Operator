@@ -29,18 +29,18 @@
 //        }
 //    }
 
-//    //public Scenario CheckNextCallScenario()
-//    //{
-//    //    //var plugs = _boardScript.GetPluggedJacks();
+//    public Scenario CheckNextCallScenario()
+//    {
+//        var plugs = _boardScript.GetPluggedJacks();
 
-//    //    if (plugs.Count == 2)
-//    //    {
-//    //        //return _callScript.Check(plugs[0], plugs[1]);
-//    //    }
+//        if (plugs.Count == 2)
+//        {
+//            return _callScript.Check(plugs[0], plugs[1]);
+//        }
 
-//    //    return Scenario.Incomplete;
+//        return Scenario.Incomplete;
 
-//    //}
+//    }
 
 //    public void SetCurrentCall(GameObject call)
 //    {

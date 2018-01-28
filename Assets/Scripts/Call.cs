@@ -34,7 +34,7 @@ public class Call : MonoBehaviour
     private AudioSource speaker;
     public AudioClip intro;
     public AudioClip call;
-    public bool eavesdropping = true;
+    public bool eavesdropping = false;
     public bool active;
 
     //int state = -1;
@@ -71,12 +71,14 @@ public class Call : MonoBehaviour
                     {
                         speaker.clip = intro;
                         speaker.Play();
+
                         state = CallState.WAITPLUGS;
                     }
                     break;
                 case CallState.WAITPLUGS:
                     if (!speaker.isPlaying)
                     {
+                        destination.lightUp();
                         PlayCallWhenPortsCorrect();
                     }
                     break;
@@ -93,7 +95,7 @@ public class Call : MonoBehaviour
                     }
                     break;
                 case CallState.WAITUNPLUG:
-                    if(p1.currentJack == null && p2.currentJack == null)
+                    if (p1.currentJack == null && p2.currentJack == null)
                     {
                         active = false;
                     }

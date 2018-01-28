@@ -4,4 +4,25 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/BlackRoomStart.unity
+    guid: f41d2ba16a4eb27418c2698ecbc63d10
+  - enabled: 1
+    path: Assets/Scenes/Day One.unity
+    guid: 4ac7b6522b51e0e4aa728b1e1a940be6
+  - enabled: 1
+    path: Assets/Scenes/BlackRoom.unity
+    guid: cb248fe4e2472344c80382f9c6c606c0
+  - enabled: 1
+    path: Assets/Scenes/Day 2.unity
+    guid: c6dbb9ef0a47740438ce73f5381d9717
+  - enabled: 1
+    path: Assets/Scenes/BlackRoom Day 2.unity
+    guid: cb1952700383cab41bb11af04d36ad42
+  - enabled: 1
+    path: Assets/Scenes/Day 3.unity
+    guid: d87394a37a6d1f2458611ceeee492eaa
+  - enabled: 1
+    path: Assets/Scenes/BlackRoom Day 3.unity
+    guid: c6d0d5037ffd8064b8c4c9a3c8e06f36

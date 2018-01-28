@@ -9,7 +9,8 @@ public class JackPosition
     public int Y;
 }
 
-public class Jack : MonoBehaviour {
+public class Jack : MonoBehaviour
+{
     public JackPosition _jackPosition;
     //private Board _boardScript;
     public GameObject greenlight;
@@ -20,7 +21,7 @@ public class Jack : MonoBehaviour {
     {
         //_jackPosition = new JackPosition();
         //_boardScript = GameObject.Find("Board").GetComponent<Board>();
-       // Debug.Log(_boardScript);
+        // Debug.Log(_boardScript);
     }
     private void Update()
     {
@@ -42,21 +43,21 @@ public class Jack : MonoBehaviour {
     {
         greenlight.SetActive(false);
     }
-//    private void OnTriggerEnter(Collider other)
-//    {
-//        if(other.gameObject.tag.Equals("Plug"))
-//        {
-//            _boardScript.AddJackPosition(_jackPosition);
-//            Debug.Log("Plugging in!");
-//        }
-//    }
+    //    private void OnTriggerEnter(Collider other)
+    //    {
+    //        if(other.gameObject.tag.Equals("Plug"))
+    //        {
+    //            _boardScript.AddJackPosition(_jackPosition);
+    //            Debug.Log("Plugging in!");
+    //        }
+    //    }
 
-//    private void OnTriggerExit(Collider other)
-//    {
-//        if (other.gameObject.tag.Equals("Plug"))
-//        {
-//            _boardScript.RemoveJackPosition(_jackPosition);
-//            Debug.Log("Pulling Out!");
-//        }
-//    }
+    //    private void OnTriggerExit(Collider other)
+    //    {
+    //        if (other.gameObject.tag.Equals("Plug"))
+    //        {
+    //            _boardScript.RemoveJackPosition(_jackPosition);
+    //            Debug.Log("Pulling Out!");
+    //        }
+    //    }
 }
